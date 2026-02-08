@@ -35,7 +35,7 @@ This game helps improve logical thinking and problem-solving skills.
 ### ***Screenshots***
 
 ##### Game Start
-![Game Start](https:)
+![Game Start](./index.html)
 
 ## Wireframe
 ![Wireframe](images/wireframe.png1.png)
