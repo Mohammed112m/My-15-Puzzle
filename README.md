@@ -1,45 +1,51 @@
-# My-15-Puzzle
-## DONE BY : Mohammed Hamood
-## Date: Feb 5th.2026
+# My 15 Puzzle Game
+## Done By: Mohammed Hamood
+## Date: Feb 5th, 2026
 
+### Project 1 – Unit1 - GA
 
-### This is Puzzle Game for project 1 in GA
-
+#### Website | GitHub | LinkedIn
 #### [Website](https:/My 15 Puzzle Game.com) | [GitHub](https://github.com/Mohammed112m) | [LinkedIn](https://linkedin.com/in/mohammedhamood)
 ***
+---
 
 ### ***Description***
-#### This project is a simple game built with HTML, CSS, and JavaScript
-####  The "15 Puzzle" game is a classic puzzle game that involves moving numbered pieces in a 4x4, 5x5 or 6x6 grid to arrange them in the correct order, where the user arranges the numbers from 1 to 15. The goal is to stimulate the brain.
+
+My 15 Puzzle Game is a classic sliding puzzle game built using HTML, CSS, and JavaScript.
+The player must arrange the numbers from 1 to 15 in ascending order by sliding tiles into the empty space.
+This game helps improve logical thinking and problem-solving skills.
 
 ### ***Technologies Used***
-* HTML
-* CSS
-* JavaScript
-  * DOM manipulation
-  * Event listeners
-* Markdown for documentation
-***
+
+- HTML
+- CSS
+- JavaScript
+  - DOM Manipulation
+  - Event Listeners
+- Markdown for documentation
 
 ### ***Getting Started***
-##### 1. Create new repository in my acount.
-##### 2. Open the fils. html,.css,.js in a browser to build the game.
-##### 3. when you need paly.Click on Start to play a Game.
-##### 4. Use the pause button to stop a game.
-##### 4. Use the Continue Game to Complete game.
-***
+
+1. Open the project in your browser.
+2. Click the *Start* button to Start the game.
+3. Click The number to move them into the empty square.
+4. Arrange the numbers from 1 to 15 to win,and go another level.
+5. Use *Pause* to stop the game and *Continue* to resume.
 
 ### ***Screenshots***
 
 ##### Game Start
-![Game Start](https://imgur.com/a/BBaniC9)
+![Game Start](https:)
 
-
-***
+## Wireframe
+![Wireframe](images/wireframe.png1.png)
+![Wireframe](images/wireframe.png2.png)
+![Wireframe](images/wireframe.png3.png)
 
 ### ***Future Updates***
-- [ ] Add AI for single-player mode
-- [ ] Add score tracking for multiple rounds
-- [x] Completed basic X vs O functionality
+
+- [ ] Add timer and move counter
+- [ ] Save best score
+- [ ] Add sound effects
+- [x] Basic puzzle logic completed
 - [x] Reset button implemented
-***

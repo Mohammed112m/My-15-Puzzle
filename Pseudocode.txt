@@ -1,0 +1,25 @@
+My 15 Puzzle Game
+
+How the game works:
+
+When the page loads:
+    Set the level to Level 1
+    Set the timer based on the level
+
+When player clicks Start:
+    Start the timer
+    Start the game
+
+After each move:
+    Check if squares  are in correct order (1 to 15)
+    If correct:
+    Stop the timer
+    Display "You Win!"
+     Go to the next level
+
+
+Levels:
+    Level 1: 2 minutes
+    Level 2: 3 minutes
+    Level 3: 5 minutes
+    Each level increases difficulty by shuffling squares  more
