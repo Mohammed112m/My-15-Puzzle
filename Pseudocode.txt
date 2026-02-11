@@ -1,7 +1,7 @@
 My 15 Puzzle Game
 
 How the game works:
-
+  
 When the page loads:
     Set the level to Level 1
     Set the timer based on the level
