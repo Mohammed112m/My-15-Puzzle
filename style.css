@@ -1,27 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
 body {
-  background: black;
+  background: #f0f0f0;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  flex-direction: column;
 }
-
-.container {
+.content1 {
+  display: grid;
   text-align: center;
+  justify-content: center;
 }
-
-.start-button {
-  background: #f8dcdc;
+.button {
+  background: #dcd6d9;
   width: 260px;
   height: 60px;
-  margin: 20px auto 40px;
+  margin: auto;
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -31,4 +26,62 @@ body {
   font-size: 22px;
   font-weight: bold;
   cursor: pointer;
+}
+.game-image img {
+  width: 700px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+/* حقت page2 */
+
+.buttonTM {
+  background: rgb(231, 218, 194);
+  padding: 15px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+  min-width: 150px;
+}
+button {
+  background-color: rgb(231, 218, 194);
+  color: black;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  border: 2px solid #b5a48b;
+  margin-bottom: 10px; /* يعمل مسافة بين المربعات*/
+  border-radius: 10px;
+}
+.Board {
+  display: grid;
+  gap: 15px;
+  background: rgb(231, 218, 194);
+  padding: 15px;
+  border-radius: 15px;
+  margin: 20px;
+  width: fit-content;
+}
+.squar {
+  width: 70px;
+  height: 70px;
+  background: rgb(220, 185, 185);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.squar.empty {
+  background: rgba(166, 142, 96, 0.5);
+  cursor: default;
+  box-shadow: none;
 }
