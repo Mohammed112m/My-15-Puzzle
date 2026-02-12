@@ -1,9 +1,9 @@
 # My 15 Puzzle Game
 ## Done By: Mohammed Hamood
 ## Date: Feb 5th, 2026
-  
-### Project 1 – Unit1 - GA
 
+### Project 1 – Unit1 - GA
+     
 #### Website | GitHub | LinkedIn
 #### [Website](https:/My 15 Puzzle Game.com) | [GitHub](https://github.com/Mohammed112m) | [LinkedIn](https://linkedin.com/in/mohammedhamood)
 ***

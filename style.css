@@ -55,8 +55,7 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   width: 100%;
-  border: 2px solid #b5a48b;
-  margin-bottom: 10px; /* يعمل مسافة بين المربعات*/
+  margin-bottom: 10px; /* ----> يعمل مسافة بين المربعات*/
   border-radius: 10px;
 }
 .Board {
@@ -79,7 +78,7 @@ button {
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
-}
+}   
 .squar.empty {
   background: rgba(166, 142, 96, 0.5);
   cursor: default;
