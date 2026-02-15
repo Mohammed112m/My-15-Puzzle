@@ -63,7 +63,7 @@ board.push(i)}
 board.push(null) //-------> empty squar
 
 for (let i = board.length - 1; i > 0; i--) {
-let j = Math.floor(Math.random() * (i + 1)) // --->math random gives mix numbers , AND math flor change to integer number
+let j = Math.floor(Math.random() * (i + 1))
 let temp = board[i]
 board[i] = board[j]   //--------> swap the squar
 board[j] = temp}
@@ -76,12 +76,12 @@ boardEl.innerHTML = ''
 const size = LEVELS[currentLevel].size
 boardEl.style.gridTemplateColumns = 'repeat(' + size + ', 70px)'
 
-board.forEach((val, i) => {
+board.forEach((value, i) => {
 const squar = document.createElement('div')
 squar.className = 'squar'
 
-if (val === null) squar.classList.add('empty')
-else squar.innerText = val
+if (value === null) squar.classList.add('empty')
+else squar.innerText = value
 
 squar.onclick = () => moveSquare(i)
 boardEl.appendChild(squar)
@@ -100,6 +100,8 @@ row = Math.floor(j / size)
 col = j - row * size
 break}
 }
+
+
 let emptyRow = 0
 let emptyCol = 0
 for (let j = 0; j < size * size; j++) {
@@ -108,11 +110,11 @@ emptyRow = Math.floor(j / size)
 emptyCol = j - emptyRow * size
 break}
 }
-
 if (Math.abs(row - emptyRow) + Math.abs(col - emptyCol) === 1) {
 let temp = board[i]
 board[i] = board[emptyIndex]
 board[emptyIndex] = temp
+moves++
 if (movesDisplay) movesDisplay.innerText = moves
 render()
 checkWin()}
